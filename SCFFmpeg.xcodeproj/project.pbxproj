@@ -13,6 +13,26 @@
 		8B076F63228FE85200ACCD47 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B076F62228FE85200ACCD47 /* Assets.xcassets */; };
 		8B076F66228FE85200ACCD47 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B076F64228FE85200ACCD47 /* LaunchScreen.storyboard */; };
 		8B076F69228FE85200ACCD47 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B076F68228FE85200ACCD47 /* main.m */; };
+		8B076F7C228FE9A400ACCD47 /* libiconv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B076F70228FE99F00ACCD47 /* libiconv.tbd */; };
+		8B076F7D228FE9A400ACCD47 /* lib in Resources */ = {isa = PBXBuildFile; fileRef = 8B076F71228FE9A300ACCD47 /* lib */; };
+		8B076F7E228FE9A400ACCD47 /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B076F72228FE9A300ACCD47 /* CoreImage.framework */; };
+		8B076F7F228FE9A400ACCD47 /* include in Resources */ = {isa = PBXBuildFile; fileRef = 8B076F73228FE9A300ACCD47 /* include */; };
+		8B076F80228FE9A400ACCD47 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B076F74228FE9A300ACCD47 /* AVFoundation.framework */; };
+		8B076F81228FE9A400ACCD47 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B076F75228FE9A300ACCD47 /* CoreGraphics.framework */; };
+		8B076F82228FE9A400ACCD47 /* libbz2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B076F76228FE9A300ACCD47 /* libbz2.tbd */; };
+		8B076F83228FE9A400ACCD47 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B076F77228FE9A400ACCD47 /* AudioToolbox.framework */; };
+		8B076F84228FE9A400ACCD47 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B076F78228FE9A400ACCD47 /* CoreMedia.framework */; };
+		8B076F85228FE9A400ACCD47 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B076F79228FE9A400ACCD47 /* libz.tbd */; };
+		8B076F86228FE9A400ACCD47 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B076F7A228FE9A400ACCD47 /* OpenGLES.framework */; };
+		8B076F87228FE9A400ACCD47 /* VideoToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B076F7B228FE9A400ACCD47 /* VideoToolbox.framework */; };
+		8B076F91228FECB200ACCD47 /* libavformat.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B076F8A228FECB200ACCD47 /* libavformat.a */; };
+		8B076F92228FECB200ACCD47 /* libavdevice.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B076F8B228FECB200ACCD47 /* libavdevice.a */; };
+		8B076F93228FECB200ACCD47 /* libswscale.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B076F8C228FECB200ACCD47 /* libswscale.a */; };
+		8B076F94228FECB200ACCD47 /* libavutil.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B076F8D228FECB200ACCD47 /* libavutil.a */; };
+		8B076F95228FECB200ACCD47 /* libswresample.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B076F8E228FECB200ACCD47 /* libswresample.a */; };
+		8B076F96228FECB200ACCD47 /* libavcodec.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B076F8F228FECB200ACCD47 /* libavcodec.a */; };
+		8B076F97228FECB200ACCD47 /* libavfilter.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B076F90228FECB200ACCD47 /* libavfilter.a */; };
+		8B076F9A228FFBC200ACCD47 /* v1.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 8B076F99228FFBC200ACCD47 /* v1.mp4 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +46,26 @@
 		8B076F65228FE85200ACCD47 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8B076F67228FE85200ACCD47 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8B076F68228FE85200ACCD47 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8B076F70228FE99F00ACCD47 /* libiconv.tbd */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libiconv.tbd; path = usr/lib/libiconv.tbd; sourceTree = SDKROOT; };
+		8B076F71228FE9A300ACCD47 /* lib */ = {isa = PBXFileReference; lastKnownFileType = folder; path = lib; sourceTree = "<group>"; };
+		8B076F72228FE9A300ACCD47 /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
+		8B076F73228FE9A300ACCD47 /* include */ = {isa = PBXFileReference; lastKnownFileType = folder; path = include; sourceTree = "<group>"; };
+		8B076F74228FE9A300ACCD47 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		8B076F75228FE9A300ACCD47 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		8B076F76228FE9A300ACCD47 /* libbz2.tbd */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libbz2.tbd; path = usr/lib/libbz2.tbd; sourceTree = SDKROOT; };
+		8B076F77228FE9A400ACCD47 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		8B076F78228FE9A400ACCD47 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		8B076F79228FE9A400ACCD47 /* libz.tbd */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		8B076F7A228FE9A400ACCD47 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		8B076F7B228FE9A400ACCD47 /* VideoToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VideoToolbox.framework; path = System/Library/Frameworks/VideoToolbox.framework; sourceTree = SDKROOT; };
+		8B076F8A228FECB200ACCD47 /* libavformat.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libavformat.a; path = SCFFmpeg/ffmpeglib/lib/libavformat.a; sourceTree = "<group>"; };
+		8B076F8B228FECB200ACCD47 /* libavdevice.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libavdevice.a; path = SCFFmpeg/ffmpeglib/lib/libavdevice.a; sourceTree = "<group>"; };
+		8B076F8C228FECB200ACCD47 /* libswscale.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libswscale.a; path = SCFFmpeg/ffmpeglib/lib/libswscale.a; sourceTree = "<group>"; };
+		8B076F8D228FECB200ACCD47 /* libavutil.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libavutil.a; path = SCFFmpeg/ffmpeglib/lib/libavutil.a; sourceTree = "<group>"; };
+		8B076F8E228FECB200ACCD47 /* libswresample.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libswresample.a; path = SCFFmpeg/ffmpeglib/lib/libswresample.a; sourceTree = "<group>"; };
+		8B076F8F228FECB200ACCD47 /* libavcodec.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libavcodec.a; path = SCFFmpeg/ffmpeglib/lib/libavcodec.a; sourceTree = "<group>"; };
+		8B076F90228FECB200ACCD47 /* libavfilter.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libavfilter.a; path = SCFFmpeg/ffmpeglib/lib/libavfilter.a; sourceTree = "<group>"; };
+		8B076F99228FFBC200ACCD47 /* v1.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = v1.mp4; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +73,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8B076F91228FECB200ACCD47 /* libavformat.a in Frameworks */,
+				8B076F92228FECB200ACCD47 /* libavdevice.a in Frameworks */,
+				8B076F93228FECB200ACCD47 /* libswscale.a in Frameworks */,
+				8B076F94228FECB200ACCD47 /* libavutil.a in Frameworks */,
+				8B076F95228FECB200ACCD47 /* libswresample.a in Frameworks */,
+				8B076F96228FECB200ACCD47 /* libavcodec.a in Frameworks */,
+				8B076F97228FECB200ACCD47 /* libavfilter.a in Frameworks */,
+				8B076F81228FE9A400ACCD47 /* CoreGraphics.framework in Frameworks */,
+				8B076F85228FE9A400ACCD47 /* libz.tbd in Frameworks */,
+				8B076F87228FE9A400ACCD47 /* VideoToolbox.framework in Frameworks */,
+				8B076F82228FE9A400ACCD47 /* libbz2.tbd in Frameworks */,
+				8B076F7C228FE9A400ACCD47 /* libiconv.tbd in Frameworks */,
+				8B076F7E228FE9A400ACCD47 /* CoreImage.framework in Frameworks */,
+				8B076F80228FE9A400ACCD47 /* AVFoundation.framework in Frameworks */,
+				8B076F83228FE9A400ACCD47 /* AudioToolbox.framework in Frameworks */,
+				8B076F84228FE9A400ACCD47 /* CoreMedia.framework in Frameworks */,
+				8B076F86228FE9A400ACCD47 /* OpenGLES.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +101,7 @@
 			children = (
 				8B076F58228FE85200ACCD47 /* SCFFmpeg */,
 				8B076F57228FE85200ACCD47 /* Products */,
+				8B076F88228FEA8700ACCD47 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,6 +116,8 @@
 		8B076F58228FE85200ACCD47 /* SCFFmpeg */ = {
 			isa = PBXGroup;
 			children = (
+				8B076F99228FFBC200ACCD47 /* v1.mp4 */,
+				8B076F6F228FE8D700ACCD47 /* ffmpeglib */,
 				8B076F59228FE85200ACCD47 /* AppDelegate.h */,
 				8B076F5A228FE85200ACCD47 /* AppDelegate.m */,
 				8B076F5C228FE85200ACCD47 /* ViewController.h */,
@@ -69,6 +129,39 @@
 				8B076F68228FE85200ACCD47 /* main.m */,
 			);
 			path = SCFFmpeg;
+			sourceTree = "<group>";
+		};
+		8B076F6F228FE8D700ACCD47 /* ffmpeglib */ = {
+			isa = PBXGroup;
+			children = (
+				8B076F77228FE9A400ACCD47 /* AudioToolbox.framework */,
+				8B076F74228FE9A300ACCD47 /* AVFoundation.framework */,
+				8B076F75228FE9A300ACCD47 /* CoreGraphics.framework */,
+				8B076F72228FE9A300ACCD47 /* CoreImage.framework */,
+				8B076F78228FE9A400ACCD47 /* CoreMedia.framework */,
+				8B076F73228FE9A300ACCD47 /* include */,
+				8B076F71228FE9A300ACCD47 /* lib */,
+				8B076F76228FE9A300ACCD47 /* libbz2.tbd */,
+				8B076F70228FE99F00ACCD47 /* libiconv.tbd */,
+				8B076F79228FE9A400ACCD47 /* libz.tbd */,
+				8B076F7A228FE9A400ACCD47 /* OpenGLES.framework */,
+				8B076F7B228FE9A400ACCD47 /* VideoToolbox.framework */,
+			);
+			path = ffmpeglib;
+			sourceTree = "<group>";
+		};
+		8B076F88228FEA8700ACCD47 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8B076F8F228FECB200ACCD47 /* libavcodec.a */,
+				8B076F8B228FECB200ACCD47 /* libavdevice.a */,
+				8B076F90228FECB200ACCD47 /* libavfilter.a */,
+				8B076F8A228FECB200ACCD47 /* libavformat.a */,
+				8B076F8D228FECB200ACCD47 /* libavutil.a */,
+				8B076F8E228FECB200ACCD47 /* libswresample.a */,
+				8B076F8C228FECB200ACCD47 /* libswscale.a */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -128,8 +221,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8B076F9A228FFBC200ACCD47 /* v1.mp4 in Resources */,
 				8B076F66228FE85200ACCD47 /* LaunchScreen.storyboard in Resources */,
 				8B076F63228FE85200ACCD47 /* Assets.xcassets in Resources */,
+				8B076F7D228FE9A400ACCD47 /* lib in Resources */,
+				8B076F7F228FE9A400ACCD47 /* include in Resources */,
 				8B076F61228FE85200ACCD47 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -288,13 +384,19 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3JXF3ZZ9G5;
 				INFOPLIST_FILE = SCFFmpeg/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = smg.SCFFmpeg;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/SCFFmpeg/ffmpeglib/lib",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.smg.SCFFmpeg;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
+				USER_HEADER_SEARCH_PATHS = SCFFmpeg/ffmpeglib/include;
 			};
 			name = Debug;
 		};
@@ -305,13 +407,19 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3JXF3ZZ9G5;
 				INFOPLIST_FILE = SCFFmpeg/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = smg.SCFFmpeg;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/SCFFmpeg/ffmpeglib/lib",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.smg.SCFFmpeg;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
+				USER_HEADER_SEARCH_PATHS = SCFFmpeg/ffmpeglib/include;
 			};
 			name = Release;
 		};
